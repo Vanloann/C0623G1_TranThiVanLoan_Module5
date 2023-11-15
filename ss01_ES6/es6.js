@@ -1,5 +1,6 @@
 // 1. Tạo một mảng mới chứa các số lớn hơn 5 từ mảng ban đầu (map).
 let array = [2, 4, 6, 15, 19];
+// // C1
 let newArr = array.map(function (array) {
     if (array > 5) {
         return array;
@@ -7,6 +8,10 @@ let newArr = array.map(function (array) {
 });
 console.log(newArr);
 
+let result = newArr.filter((num) => num !== undefined);
+console.log(result);
+
+// c2
 let newArr = array.filter((array) => array>5);
 console.log(newArr);
 
@@ -58,13 +63,10 @@ console.log(name, age);
 
 // 8. Sử dụng Rest parameter và Spread operator để tạo một hàm nhận vào danh sách các số và trả về tổng của chúng.
 function sum(...numbers) {
-    let sum = 0;
-    for (let num of numbers) sum += num;
-    return sum;
+    return numbers.reduce((sum, array) => sum + array);
 }
 
-let num = sum(3, 10, 18, 20);
-console.log(num);
+console.log(sum(3, 10, 18, 20));
 
 
 // 9. Sử dụng Rest parameter để nhận vào một danh sách tên và trả về chuỗi định dạng "Welcome, [tên1], [tên2], [tên3], ..." cho tất cả các tên.
