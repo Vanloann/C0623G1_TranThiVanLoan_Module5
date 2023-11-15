@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c32599-239a-4ec4-aed3-96745eec5031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama_function.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furama-header-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/furama-header-footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header&amp;footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/header&amp;footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss01_ES6/node" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/VIVU/VIVU_booking/tourbooking/src/main/resources/templates/header-footer.html" />
+    <property name="last_opened_file_path" value="D:/VIVU/VIVU_booking/tourbooking/src/main/resources/templates/admin-create-tour.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -48,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699953755190</updated>
       <workItem from="1699953756271" duration="4141000" />
-      <workItem from="1700005819044" duration="2296000" />
+      <workItem from="1700005819044" duration="2735000" />
+      <workItem from="1700037848038" duration="5454000" />
     </task>
     <servers />
   </component>
@@ -56,9 +60,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1699956421623">
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1700038742019">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1699956421623" />
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1700038742019" />
   </component>
 </project>

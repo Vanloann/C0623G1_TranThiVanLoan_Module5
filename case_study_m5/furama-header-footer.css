@@ -1,8 +1,11 @@
 * {
     font-family: Circular, sans-serif;
-    font-weight: bold;
-    font-size: 17px;
     text-decoration: none;
+}
+
+header * {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 
