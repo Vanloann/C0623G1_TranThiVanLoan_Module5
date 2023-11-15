@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c32599-239a-4ec4-aed3-96745eec5031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/furama-header-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header&amp;footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama-header-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/furama-header-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header&amp;footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/header&amp;footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699953755190</updated>
       <workItem from="1699953756271" duration="4141000" />
+      <workItem from="1700005819044" duration="2296000" />
     </task>
     <servers />
   </component>
