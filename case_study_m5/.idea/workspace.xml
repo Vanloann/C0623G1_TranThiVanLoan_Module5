@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c32599-239a-4ec4-aed3-96745eec5031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/furama_function.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furama-header-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/furama-header-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header&amp;footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/header&amp;footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss01_ES6/node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss02_reactJs/ss2/src/component/Student.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss02_reactJs/ss2/src/component/Student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss03_components_props_state/ss03/src/components/ToDoApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss03_components_props_state/ss03/src/components/ToDoApp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/VIVU/VIVU_booking/tourbooking/src/main/resources/templates/admin-create-tour.html" />
+    <property name="last_opened_file_path" value="D:/C0623G1_TTVanLoan_Backup/demoExam/src/main/resources/templates/home.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -52,7 +52,9 @@
       <updated>1699953755190</updated>
       <workItem from="1699953756271" duration="4141000" />
       <workItem from="1700005819044" duration="2735000" />
-      <workItem from="1700037848038" duration="5454000" />
+      <workItem from="1700037848038" duration="5933000" />
+      <workItem from="1700116500795" duration="176000" />
+      <workItem from="1700129131161" duration="1528000" />
     </task>
     <servers />
   </component>
@@ -60,9 +62,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1700038742019">
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1700129931690">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1700038742019" />
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1700129931690" />
   </component>
 </project>
