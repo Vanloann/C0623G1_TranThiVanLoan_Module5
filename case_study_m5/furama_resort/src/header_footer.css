@@ -1,0 +1,68 @@
+* {
+    font-family: Circular, sans-serif;
+    text-decoration: none;
+
+}
+
+header * {
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+footer {
+    margin-bottom: 0;
+
+}
+
+footer.container {
+    margin-top: 30px;
+}
+
+footer.catalog-widget-inside {
+    visibility: visible;
+}
+
+footer.col-sm-3 {
+    color:#141313;
+    margin-right: 5px;
+}
+
+
+.login-btn button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 40px;
+    padding: 15px;
+}
+
+.login-btn button:hover {
+    border-radius: 40px;
+    background-color: #bce2d8;
+}
+
+#navbarNavAltMarkup {
+    margin-left: 20%;
+}
+
+.navbar-nav a {
+    margin-right: 20px;
+}
+
+.brief {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+
+}
+
+.service-body {
+    text-decoration: none;
+    color: black;
+}

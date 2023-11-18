@@ -1,0 +1,65 @@
+.form-text {
+    margin-top: 5px;
+}
+
+#board {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 6px 16px;
+    position: sticky;
+    top: 125px !important;
+}
+
+#create-btn button {
+    width: 30%;
+    height: 40px;
+    color: #413f3f;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: 700;
+    transition: 0.5s ease;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    border: 2px solid rgba(161, 161, 161, 0.3);
+}
+
+#create-btn button:hover {
+    background-color: #1d1d1d;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 6px 16px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+#create-tour h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 25px 0;
+    letter-spacing: 2px;
+}
+
+.in-one-line {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.in-one-line input {
+    width: 275px;
+}
+
+.in-one-line div {
+    /*margin-top: 10px;*/
+    margin-bottom: 15px;
+}
+
+.div-element {
+    margin-bottom: 15px;
+}
+
+.extra-service {
+    margin-bottom: 15px;
+}
