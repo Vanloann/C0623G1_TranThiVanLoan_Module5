@@ -48,7 +48,7 @@
 }
 
 .in-one-line input {
-    width: 275px;
+    width: 365px;
 }
 
 .in-one-line div {
@@ -60,6 +60,15 @@
     margin-bottom: 15px;
 }
 
+.div-element .name-level {
+    width: 565px;
+}
 .extra-service {
     margin-bottom: 15px;
 }
+
+.table thead {
+background-color: black;
+    color: white;
+}
+

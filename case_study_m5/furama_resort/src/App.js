@@ -9,13 +9,19 @@ import HeaderFooter from "./components/header_footer";
 import React from "react";
 import CreateService from "./components/service-create";
 import EditService from "./components/service-edit";
+import CustomerList from "./components/customer-list";
+import EditCustomer from "./components/customer-edit";
+import CreateCustomer from "./components/customer-create";
 
 function App() {
     return (
         <>
             {/*<HeaderFooter/>*/}
             {/*<CreateService/>*/}
-            <EditService/>
+            {/*<EditService/>*/}
+            {/*<CustomerList/>*/}
+            {/*<EditCustomer/>*/}
+            <CreateCustomer/>
         </>
     );
 }
