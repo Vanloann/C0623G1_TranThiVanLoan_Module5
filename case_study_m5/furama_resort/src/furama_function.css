@@ -9,6 +9,7 @@
     box-shadow: rgba(0, 0, 0, 0.12) 0 6px 16px;
     position: sticky;
     top: 125px !important;
+    margin-bottom: 50px;
 }
 
 #create-btn button {
