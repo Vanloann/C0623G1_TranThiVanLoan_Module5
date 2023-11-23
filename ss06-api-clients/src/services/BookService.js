@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getAll = async () => {
     try {
-        let response = await axios.get("http://localhost:3001/books");
+        let response = await axios.get("http://localhost:8080/books");
         return response.data;
     } catch (e) {
         return undefined;
@@ -11,7 +11,7 @@ export const getAll = async () => {
 
 export const createBook = async (book) => {
     try {
-        await axios.post("http://localhost:3001/books", book);
+        await axios.post("http://localhost:8080/books", book);
         return true
     } catch (e) {
         return false;
@@ -20,7 +20,7 @@ export const createBook = async (book) => {
 
 export const getBookById = async (bookId) => {
     try {
-        let response = await axios.get("http://localhost:3001/books/${bookId}");
+        let response = await axios.get(`http://localhost:8080/books/${bookId}`);
         return response.data;
     } catch (e) {
         return undefined;
@@ -29,7 +29,7 @@ export const getBookById = async (bookId) => {
 
 export const editBook = async (book) => {
     try {
-        await axios.put("http://localhost:3001/books/${book.id}",book);
+        await axios.put(`'http://localhost:8080/books/${book.id}'`,book);
         return true;
     } catch (e) {
         return false;

@@ -44,7 +44,7 @@ function EditBook() {
             <div className="container mt-4">
                 <h1>Edit Book</h1>
                 <Formik
-                    initialValues={initialValue}
+                    initialValues={editedBook}
                     onSubmit={editBook}
                     validationSchema={Yup.object(validateObject)}
                 >
@@ -59,7 +59,7 @@ function EditBook() {
                             <Field type="number" className="form-control" name="quantity" id="quantity"/>
                             <ErrorMessage name="quantity" component="span" className="err-mess text-danger"/>
 
-                            <button className="btn btn-outline-dark" type="button">Update</button>
+                            <button className="btn btn-outline-dark" type="submit">Update</button>
                         </div>
                     </Form>
                 </Formik>

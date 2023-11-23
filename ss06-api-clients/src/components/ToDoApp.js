@@ -1,23 +1,22 @@
-import {Formik, Form, Field, ErrorMessage} from "formik";
+import {ErrorMessage, Field, Form, Formik} from "formik";
 import * as Yup from "yup";
 import {toast} from 'react-toastify';
 import * as toDoAppService from "../services/ToDoAppService";
-import {useEffect, useState} from "react";
 import {getAll} from "../services/ToDoAppService";
+import {useEffect, useState} from "react";
 
 
 function ToDoApp() {
-    const [tasks, setTasks] = useState();
+    const [tasks, setTasks] = useState([]);
 
     useEffect(() => {
-        getAllTasks()
+        getAllTasks().then((res) => {
+            setTasks(res)
+        });
     }, []);
 
     const getAllTasks = async () => {
-        if (!tasks) {
-            let data = await toDoAppService.getAll();
-            setTasks(data);
-        }
+        return await toDoAppService.getAll().then();
     };
 
     const initialValue = {
@@ -81,4 +80,5 @@ function ToDoApp() {
     </>
         ;
 }
+
 export default ToDoApp;

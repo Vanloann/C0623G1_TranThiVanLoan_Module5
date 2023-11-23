@@ -51,7 +51,7 @@ function CreateBook() {
                         <Field type="number" className="form-control" name="quantity" id="quantity"/>
                         <ErrorMessage name="quantity" component="span" className="err-mess text-danger"/>
 
-                        <button className="btn btn-outline-dark" type="button">Submit</button>
+                        <button className="btn btn-outline-dark" type="submit">Submit</button>
                     </div>
                 </Form>
             </Formik>
