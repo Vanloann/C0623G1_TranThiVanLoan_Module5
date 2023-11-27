@@ -89,6 +89,7 @@
 }
 
 #footer {
+    margin-top: 30px;
     background-color: white;
     width: 100%;
     padding: 15px 0;
@@ -118,7 +119,7 @@ footer.col-sm-3 i {
     height: 80vh;
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-image: url("https://www.thehotelguru.com/_images/93/b7/93b75df0148f79208555b32772b95681/furama-resort-s1180x560.jpg");
+    background-image: url("../public/image/furama-resort-danang-furama-villas-danang-da-nang-wietnam-11471-full.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -182,6 +183,8 @@ footer.col-sm-3 i {
 
 .card {
     margin-bottom: 60px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: rgba(0, 0, 0, 0.12) 0 6px 16px;
 }
 
 .card img {

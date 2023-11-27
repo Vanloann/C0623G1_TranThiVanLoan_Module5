@@ -1,7 +1,25 @@
+import {Link} from "react-router-dom";
+import React, {useEffect, useState} from "react";
+import {getAllCustomer} from "../services/Customer";
+
 function CustomerList() {
+    const [customers, setCustomers] = useState([]);
+
+    useEffect(() => {
+        getAllCustomer().then((res) => {
+            setCustomers(res);
+        })
+    }, []);
+
+
     return <>
         <div id="create-tour" className="container mt-3">
-            <h1>THÔNG TIN KHÁCH HÀNG</h1>
+            <div className="d-flex justify-content-between">
+                <h1>THÔNG TIN KHÁCH HÀNG</h1>
+                <Link to="/customer-creating" className="mt-4 me-2">
+                    <box-icon name='plus-circle'></box-icon>
+                </Link>
+            </div>
             <div id="board">
                 <table className="table table-bordered table-hover text-center">
                     <thead>
@@ -19,60 +37,28 @@ function CustomerList() {
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td id="id">1</td>
-                        <td>Nguyễn Văn A</td>
-                        <td>1970-11-07</td>
-                        <td>Nam</td>
-                        <td>643431213</td>
-                        <td>0945423362</td>
-                        <td>thihao07@gmail.com</td>
-                        <td>Vàng</td>
-                        <td>Đà Nẵng</td>
+                    {customers.map((item, index) =>
+                    <tr key={item.id}>
+                        <td id="id">{index + 1}</td>
+                        <td>{item.name}</td>
+                        <td>{item.birthday}</td>
+                        <td>{item.gender}</td>
+                        <td>{item.idCard}</td>
+                        <td>{item.phoneNumber}</td>
+                        <td>{item.email}</td>
+                        <td>{item.memberType.level}</td>
+                        <td>{item.address}</td>
                         <td>
-                            <box-icon name='edit-alt'></box-icon>
+                            <Link to={`/customer-editing/${item.id}`}>
+                                <box-icon name='edit-alt'></box-icon>
+                            </Link>
                             <br/>
                             <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <box-icon name='trash'></box-icon>
                             </button>
                         </td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Nguyễn Văn B</td>
-                        <td>1970-11-07</td>
-                        <td>Nam</td>
-                        <td>643431213</td>
-                        <td>0945423362</td>
-                        <td>thihao07@gmail.com</td>
-                        <td>Vàng</td>
-                        <td>Đà Nẵng</td>
-                        <td>
-                            <box-icon name='edit-alt'></box-icon>
-                            <br/>
-                            <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <box-icon name='trash'></box-icon>
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Nguyễn Văn C</td>
-                        <td>1970-11-07</td>
-                        <td>Nam</td>
-                        <td>643431213</td>
-                        <td>0945423362</td>
-                        <td>thihao07@gmail.com</td>
-                        <td>Vàng</td>
-                        <td>Đà Nẵng</td>
-                        <td>
-                            <box-icon name='edit-alt'></box-icon>
-                            <br/>
-                            <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <box-icon name='trash'></box-icon>
-                            </button>
-                        </td>
-                    </tr>
+                    )}
                     </tbody>
                 </table>
             </div>

@@ -35,6 +35,10 @@
     color: white;
 }
 
+#create-tour {
+    height: 100vh;
+}
+
 #create-tour h1 {
     font-size: 1.7em;
     font-weight: bold;
@@ -49,7 +53,7 @@
 }
 
 .in-one-line input {
-    width: 365px;
+    width: 360px;
 }
 
 .in-one-line div {
@@ -64,6 +68,11 @@
 .div-element .name-level {
     width: 565px;
 }
+
+.create-house input {
+    margin-bottom: 20px;
+    width: 560px;
+}
 .extra-service {
     margin-bottom: 15px;
 }
@@ -73,3 +82,6 @@ background-color: black;
     color: white;
 }
 
+.customer-props {
+    width: 360px;
+}

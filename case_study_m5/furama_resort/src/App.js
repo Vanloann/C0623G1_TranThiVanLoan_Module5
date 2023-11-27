@@ -4,7 +4,9 @@ import './header_footer.css'
 import './furama_function.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'react-toastify/dist/ReactToastify.css';
 import 'boxicons';
+import {ToastContainer} from "react-toastify";
 import {Routes, Route, Link} from 'react-router-dom';
 import Header from "./components/header";
 import React from "react";
@@ -17,6 +19,9 @@ import CreateContract from "./components/contract-create";
 import ContractList from "./components/contract-list";
 import Footer from "./components/footer";
 import HomePage from "./components/homepage";
+import CreateVilla from "./components/create_services/CreateVilla";
+import CreateHouse from "./components/create_services/CreateHouse";
+import CreateRoom from "./components/create_services/CreateRoom";
 
 function App() {
     return (
@@ -24,15 +29,21 @@ function App() {
             <Header/>
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
-                <Route path="customer" element={<CustomerList/>}/>
                 <Route path="service-editing" element={<EditService/>}/>
                 <Route path="service-creating" element={<CreateService/>}/>
-                {/*<EditCustomer/>*/}
-                {/*<CreateCustomer/>*/}
-                {/*<CreateContract/>*/}
+                <Route path="create-villa" element={<CreateVilla/>}/>
+                <Route path="create-house" element={<CreateHouse/>}/>
+                <Route path="create-room" element={<CreateRoom/>}/>
+
+                <Route path="customer" element={<CustomerList/>}/>
+                <Route path="customer-editing/:customerId" element={<EditCustomer/>}/>
+                <Route path="customer-creating" element={<CreateCustomer/>}/>
+
+                <Route path="contract-creating" element={<CreateContract/>}/>
                 <Route path="contract" element={<ContractList/>}/>
             </Routes>
             <Footer/>
+            <ToastContainer/>
         </>
     );
 }

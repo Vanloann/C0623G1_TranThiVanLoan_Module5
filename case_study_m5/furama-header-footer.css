@@ -1,47 +1,209 @@
 * {
-    font-family: Circular, sans-serif;
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Poppins', sans-serif;*/
     text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+/*Header*/
+#header {
+    display: block;
+    /*position: fixed;*/
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1000;
+    background: white;
+    /*box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.2);*/
 }
 
-header * {
-    font-size: 17px;
-    font-weight: bold;
+.sidebar-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
+.sidebar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    justify-content: space-between;
+}
+
+.nav-list a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.login-btn {
+    margin-right: 0;
+    width: 150px;
+    text-align: end;
+}
 
 .login-btn button {
+    color: black;
     border: none;
     outline: none;
     background-color: transparent;
-    margin-right: 40px;
-    padding: 15px;
+    border-radius: 20px;
+    margin-right: 0;
+    font-size: 19px;
+    padding: 6px 20px;
+    transition: ease .40s;
 }
 
 .login-btn button:hover {
-    border-radius: 40px;
-    background-color: #bce2d8;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 6px 16px;
+    color: white;
+    background-color: #282c34;
 }
 
-#navbarNavAltMarkup {
-    margin-left: 20%;
+/*Footer*/
+.hm-footer-copyright p {
+    margin-bottom: 5px;
 }
 
-.navbar-nav a {
-margin-right: 20px;
+.hm-footer-copyright hr {
+    color: black;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social i {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+#footer {
+    background-color: white;
+    width: 100%;
+    padding: 15px 0;
+}
+
+
+/**/
+#introduction {
+    width: 100%;
+    display: block;
+    /*position: absolute;*/
+    /*top: 10.7%;*/
+    padding: 0;
+}
+
+.background-img {
+    width: 85%;
+    border-radius: 35px;
+    height: 80vh;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url("furama_resort/public/image/furama-resort-danang-furama-villas-danang-da-nang-wietnam-11471-full.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    filter: brightness(0.75);
+}
+
+/*.img-layer{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 80vh;*/
+/*    z-index: 2;*/
+/*    opacity: 0.8;*/
+/*    background: linear-gradient(to right,rgba(255,255,255,0), rgba(255,255,255,0.5));*/
+/*}*/
+
+.introduction-content {
+    position: absolute;
+    width: 50%;
+    color: white;
+    letter-spacing: 4px;
+    font-family: 'Paytone One', sans-serif;
+    top: 25%;
+    left: 12%;
+}
+
+.introduction-content p {
+    width: 100%;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+#home {
+    top: 100%;
+    display: block;
+    /*position: absolute;*/
+    margin-top: 30px;
+    padding: 5px 0 15px;
+    width: 100%;
+    background-color: rgba(223, 222, 212, 0.18);
+}
+
+#service {
+    width: 85%;
+    margin: 20px auto;
 }
 
 .brief {
+    text-align: center;
     margin-top: 40px;
     margin-bottom: 70px;
-    text-align: center;
+}
+
+.brief h3 {
+    color: #b28806;
+    font-weight: bold;
 }
 
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
 
+.card img {
+    width: 100%;
+    height: 255px;
+}
+
+.card-body h4 {
+    margin-bottom: 15px;
+}
+
+.card-body p {
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.card-body div:hover {
+    color: #b28806;
 }
 
 .service-body {
     text-decoration: none;
     color: black;
 }
+
+.admin-func {
+    justify-content: end;
+}
+
+.admin-func i {
+    margin-left: 10px;
+    color: #1d1d1d;
+}
+
+.admin-func i:hover {
+    color: #a41613;
+}
+

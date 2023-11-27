@@ -1,8 +1,14 @@
+import {Link} from "react-router-dom";
+
 function ContractList() {
 
     return <>
         <div id="create-tour" className="container mt-3">
-            <h1>DANH SÁCH HỢP ĐỒNG</h1>
+            <div className="d-flex justify-content-between">
+                <h1>DANH SÁCH HỢP ĐỒNG</h1>
+                <Link to="/contract-creating"><box-icon name='plus-circle'></box-icon></Link>
+            </div>
+
             <div id="board">
                 <table className="table table-bordered table-hover text-center">
                     <thead>

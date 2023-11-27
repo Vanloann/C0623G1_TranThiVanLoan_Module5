@@ -2,12 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c32599-239a-4ec4-aed3-96745eec5031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contract-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama_resort/src/components/create_services/CreateHouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama_resort/src/components/create_services/CreateRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama_resort/src/components/create_services/CreateVilla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama_resort/src/services/Contract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama_resort/src/services/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama_resort/src/services/Service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contract-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/contract-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/contract-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/customer-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama-header-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/furama-header-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/components/contract-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/components/contract-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/components/customer-create.js" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/components/customer-create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/components/customer-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/components/customer-edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/components/customer-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/components/customer-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/components/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/components/homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/components/service-create.js" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/components/service-create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/furama_function.css" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/furama_function.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furama_resort/src/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/furama_resort/src/header_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss01_ES6/node" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss03_components_props_state/ss03/src/components/ToDoApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss03_components_props_state/ss03/src/components/ToDoApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss04_hooks/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss04_hooks/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss04_hooks/.idea/ss04_hooks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss04_hooks/.idea/ss04_hooks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss04_hooks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss04_hooks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss04_hooks/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss04_hooks/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss04_hooks/src/components/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss04_hooks/src/components/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss04_hooks/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss04_hooks/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss05-react_form_router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss05-react_form_router/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss06-api-clients/src/components/BookManagement/Library.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss06-api-clients/src/components/BookManagement/Library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss06-api-clients/src/services/BookService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss06-api-clients/src/services/BookService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +50,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,9 +67,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/VIVU/VIVU_booking/tourbooking/src/main/resources/templates/admin-create-tour.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss06-api-clients" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0623G1_TranThiVanLoan_Module5\case_study_m5\furama_resort\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0623G1_TranThiVanLoan_Module5\case_study_m5" />
+      <recent name="D:\C0623G1_TranThiVanLoan_Module5\case_study_m5\furama_resort\src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,17 +98,46 @@
       <workItem from="1700129131161" duration="1528000" />
       <workItem from="1700202809050" duration="960000" />
       <workItem from="1700216536989" duration="802000" />
-      <workItem from="1700223628654" duration="3779000" />
+      <workItem from="1700223628654" duration="4066000" />
+      <workItem from="1700303725320" duration="8126000" />
+      <workItem from="1700380000948" duration="6670000" />
+      <workItem from="1700462172232" duration="165000" />
+      <workItem from="1700486175226" duration="3402000" />
+      <workItem from="1700541829797" duration="32856000" />
+      <workItem from="1700616306798" duration="5306000" />
+      <workItem from="1700721127211" duration="1851000" />
+      <workItem from="1700723066843" duration="973000" />
+      <workItem from="1700789865745" duration="5558000" />
+      <workItem from="1700807546517" duration="10742000" />
+      <workItem from="1700980653326" duration="11138000" />
+      <workItem from="1701048530377" duration="20474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../ss07_redux/node_modules/tailwindcss/stubs/tailwind.config.js" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1700226131426">
+    <state x="420" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1700560943172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1700226131426" />
+    <state x="420" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1700560943172" />
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1700578256161">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1700578256161" />
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1701079116475">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1701079116475" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1700387584834">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1700387584834" />
   </component>
 </project>

@@ -1,0 +1,154 @@
+{
+  "villa": [
+    {
+      "id": 1,
+      "name": "Phòng Superior Hướng Hồ",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-M.jpg",
+      "area": 40.1,
+      "capacity": 10,
+      "rental": 1000000,
+      "standard": "vip",
+      "floors": 3,
+      "facilities": "có hồ bơi",
+      "poolArea": 5,
+      "rentalPeriod": "2 ngày"
+    },
+    {
+      "name": "Phòng Studio Hướng biển",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Studio-Suite-M.jpg",
+      "area": 40.1,
+      "capacity": 4,
+      "rental": 2000000,
+      "standard": "vip",
+      "floors": 1,
+      "facilities": "có hồ bơi ",
+      "poolArea": 5,
+      "rentalPeriod": "3 ngày 2 đêm",
+      "id": 2
+    }
+  ],
+  "house": [
+    {
+      "id": 1,
+      "name": "Phòng Deluxe Hướng Vườn",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/Furama_Garden-Deluxe-5-1024x661.jpg",
+      "area": 43.7,
+      "capacity": 5,
+      "rental": 1000000,
+      "standard": "normal",
+      "floors": 3,
+      "facilities": "có Tivi",
+      "rentalPeriod": "2 ngày"
+    },
+    {
+      "name": "a",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/%5E19BFC67D7D58B6D3C155DB9CA96927213F31F8C8E7F909F3E2%5Epimgpsh_fullsize_distr.jpg",
+      "area": 50,
+      "capacity": 5,
+      "rental": 2500000,
+      "standard": "vip",
+      "floors": 3,
+      "facilities": "có hồ bơi ",
+      "rentalPeriod": "3 ngày 2 đêm",
+      "freeFacilities": "1 xe máy, 1 xe đạp",
+      "id": 2
+    },
+    {
+      "name": "a",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/%5E19BFC67D7D58B6D3C155DB9CA96927213F31F8C8E7F909F3E2%5Epimgpsh_fullsize_distr.jpg",
+      "area": 0,
+      "capacity": 0,
+      "rental": 0,
+      "standard": "vip",
+      "floors": 0,
+      "facilities": "có hồ bơi ",
+      "rentalPeriod": "3 ngày 2 đêm",
+      "id": 3
+    }
+  ],
+  "room": [
+    {
+      "id": 1,
+      "name": "Phòng Superior Hướng Biển",
+      "image": "https://furamavietnam.com/wp-content/uploads/2018/03/%5E224942630D3A5A787C2989A9F5AF4A3E34E6A8CAE8D94FA3D4%5Epimgpsh_fullsize_distr.jpg",
+      "area": 43.7,
+      "capacity": 2,
+      "rental": 1000000,
+      "standard": "vip",
+      "freeFacilities": "xe đạp",
+      "rentalPeriod": "3 ngày 2 đêm"
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Nguyễn Thị Hào",
+      "birthday": "1970-11-07",
+      "gender": "female",
+      "idCard": "643431213",
+      "phoneNumber": "0945423362",
+      "email": "thihao07@gmail.com",
+      "address": "23 Nguyễn Hoàng, Đà Nẵng",
+      "memberType": {
+        "id": 1,
+        "level": "Diamond"
+      }
+    },
+    {
+      "name": "loan",
+      "birthday": "2023-11-15",
+      "gender": "a",
+      "idCard": "1233443434",
+      "phoneNumber": "0982952974",
+      "email": "vanloan1042001@gmail.com",
+      "address": "a",
+      "memberType": {
+        "id": 3,
+        "level": "Platinum"
+      },
+      "id": 2
+    },
+    {
+      "name": "Phạm Xuân Diệu",
+      "birthday": "2000-04-27",
+      "gender": "Nữ",
+      "idCard": "865342123",
+      "phoneNumber": "0373213122",
+      "email": "xuandieu92@gmail.com",
+      "address": "K77/22 Thái Phiên, Quảng Trị",
+      "memberType": {
+        "id": 2,
+        "level": "Gold"
+      },
+      "id": 3
+    }
+  ],
+  "memberType": [
+    {
+      "id": 1,
+      "level": "Diamond"
+    },
+    {
+      "id": 2,
+      "level": "Gold"
+    },
+    {
+      "id": 3,
+      "level": "Platinum"
+    },
+    {
+      "id": 4,
+      "level": "Silver"
+    },
+    {
+      "id": 5,
+      "level": "Member"
+    }
+  ],
+  "contract": [
+    {
+      "id": 1,
+      "name": "typicode"
+    }
+  ]
+}
